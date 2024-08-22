@@ -1,0 +1,39 @@
+body {
+  margin: 50px;
+}
+.header {
+  padding: 20px;
+  background-color: blue;
+  text-align: center;
+}
+#name {
+  font-size: 58px;
+  color: aliceblue;
+  padding-left: 450px;
+}
+.container {
+  margin: 20px;
+  display: flex;
+}
+.left {
+  flex: 30%;
+  padding-right: 20px;
+}
+.right {
+  padding-left: 20px;
+  flex: 70%;
+}
+.img img {
+  height: 300px;
+  width: 280px;
+  margin-top: -135px;
+}
+.edu_con {
+  display: flex;
+}
+.edu_left {
+  flex: 0 0 15%;
+}
+.edu_right {
+  flex: 0 0 85%;
+}

@@ -1,0 +1,21 @@
+h1 {
+  outline: 2px solid blue;
+  font-style: italic;
+  font-variant: small-caps;
+  font-weight: lighter;
+}
+.GFG {
+  margin: auto;
+  outline: 2px solid blue;
+  outline-offset: 6px;
+  border-radius: 0px 40px;
+  background: #009900;
+  padding: 30px;
+  text-align: center;
+  width: 300px;
+  height: 120px;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}

@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f054;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  background-color: #1a1212;
+}
+.heading {
+  font-size: 48px;
+  color: orange;
+  text-align: center;
+}
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.input input {
+  width: 60%;
+  height: 60px;
+  text-align: left;
+  font-size: 2rem;
+  color: rgb(0, 136, 255);
+}
+.input button {
+  width: 100px;
+  height: 60px;
+  margin: 20px;
+  color: #8a3324;
+  background-color: #ffffff;
+}
+.list {
+  overflow-y: auto; /* Enable vertical scrolling */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo input {
+  width: 60rem;
+  height: 3rem;
+  font-size: 2rem;
+  color: rgb(0, 136, 255);
+  margin: 10px;
+  background-color: #ffffff;
+}
+.todo button {
+  margin: 10px;
+  height: 3rem;
+  width: 4rem;
+}

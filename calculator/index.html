@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>CALCULATOR</h1>
+      <input type="text" id="display" disabled />
+      <div class="buttons">
+        <button onclick="clearD()" class="clear">C</button>
+        <button onclick="del()" class="special">DEL</button>
+        <button onclick="append('/')" class="special">/</button>
+        <button onclick="append('*')" class="special">*</button>
+        <button onclick="append('-')" class="special">-</button>
+        <button onclick="append('7')">7</button>
+        <button onclick="append('8')">8</button>
+        <button onclick="append('9')">9</button>
+        <button onclick="append('+')" class="span_row" style="height: 90px">
+          +
+        </button>
+        <button onclick="append('4')">4</button>
+        <button onclick="append('5')">5</button>
+        <button onclick="append('6')">6</button>
+        <button onclick="append('1')">1</button>
+        <button onclick="append('2')">2</button>
+        <button onclick="append('3')">3</button>
+        <button
+          onclick="cal()"
+          id="equal"
+          class="span_row"
+          style="height: 90px"
+        >
+          =
+        </button>
+        <button onclick="append('0')" class="span_col">0</button>
+        <button onclick="append('.')" class="special">.</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
